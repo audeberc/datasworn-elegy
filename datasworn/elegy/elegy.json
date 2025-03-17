@@ -12839,7 +12839,7 @@
 		"origins": {
 			"_id": "truth:elegy/origins",
 			"type": "truth",
-			"name": "Origins",
+			"name": "It is widely accepted that vampirism is…",
 			"dice": "1d100",
 			"options": [
 				{
@@ -12848,8 +12848,8 @@
 						"min": 1,
 						"max": 33
 					},
-					"summary": "Vampirism is a genetic mutation.",
-					"description": "Vampires are their own species, integral to the balance of the world’s ecosystem, albeit in a supernatural way.",
+					"summary": "…a genetic mutation, and vampires are their own species.",
+					"description": "Ages ago, vampires already believed they were integral to the balance of the world’s ecosystem, if not in a natural way, in a supernatural one.",
 					"quest_starter": "A renowned biologist is conducting an experiment on vampire blood, threatening the Façade. How do you get involved in this situation? How do you plan to silence her?",
 					"oracles": {}
 				},
@@ -12859,8 +12859,8 @@
 						"min": 34,
 						"max": 67
 					},
-					"summary": "Vampirism is a punishment for humanity’s original sins.",
-					"description": "The curse unfolded when the first murder occurred, and a higher power condemned the killer and her descendants to an eternal nocturnal existence.",
+					"summary": "…a punishment for humanity’s original sins.",
+					"description": "The curse unfolded when the first murder occurred, and a higher power condemned the killer and her descendants, ensuring they would never again walk under the sun. This marked the origin of the first vampire.",
 					"quest_starter": "A cryptic parchment telling the story of the first murder has been found. It’s in a strange language, and it seems to reveal new details of the story. How will you translate it? What details are these?",
 					"oracles": {}
 				},
@@ -12870,8 +12870,8 @@
 						"min": 68,
 						"max": 100
 					},
-					"summary": "Vampirism is an eternal enigma.",
-					"description": "Even the most enlightened vampires harbor conflicting opinions on this matter, and there is no definitive answer.",
+					"summary": "…an eternal enigma.",
+					"description": "Even the most enlightened vampires harbor conflicting opinions on this matter. Each individual’s perspective significantly shapes their interpretation, and there is no definitive answer to this question.",
 					"quest_starter": "Vampires form a cult around the idea that it’s possible to turn back into mere humans, but mortal authorities suspect something is not right with them. Why do you step in this situation?",
 					"oracles": {}
 				}
@@ -12954,9 +12954,9 @@
 						"min": 1,
 						"max": 33
 					},
-					"summary": "Vampires share a single progenitor.",
-					"description": "All vampires trace their lineage back to a single source, creating a complex web of relationships and responsibilities.",
-					"quest_starter": "A lost lineage chart has resurfaced, revealing the connections between several powerful vampires. Who has it, and why is it causing turmoil?",
+					"summary": "Depending on their progenitor, each vampire belongs to one of five different lineages.",
+					"description": "Every vampire is affiliated with one of several “families,” each characterized by distinct traditions and manifestations of vampirism. Lineages are transmitted when one vampire creates another, with each lineage embodying a specific archetype of the vampire myth, bestowing unique powers and inclinations. Members of a lineage may not necessarily resemble or behave like each other. This alternative enables the Lineages optional rule.",
+					"quest_starter": "A vampire serial killer is targeting victims of a specific lineage. Which one is it, and why? What compels you to step forward and go after her?",
 					"oracles": {}
 				},
 				{
@@ -12965,9 +12965,9 @@
 						"min": 34,
 						"max": 67
 					},
-					"summary": "Vampires are divided into distinct clans or families.",
-					"description": "Each clan has its own unique characteristics, powers, and traditions, often leading to rivalries.",
-					"quest_starter": "A clan leader has gone missing, throwing their followers into disarray. What role do you play in this power vacuum?",
+					"summary": "All vampires are unique and different from one another.",
+					"description": "Vampirism manifests in what seems like a random manner, and each vampire is a unique entity with its own set of features.",
+					"quest_starter": "A newborn vampire went missing. You know she had a unique ability, which should help you track her. What ability is this? Why do you swear to find the newborn?",
 					"oracles": {}
 				},
 				{
@@ -12976,9 +12976,9 @@
 						"min": 68,
 						"max": 100
 					},
-					"summary": "Vampires are solitary by nature.",
-					"description": "Most vampires avoid forming large communities, preferring independence and secrecy, but some exceptions exist.",
-					"quest_starter": "An enigmatic vampire is attempting to unite solitary vampires under a single banner. Why does this concern you?",
+					"summary": "Vampires inherit one power from their progenitor.",
+					"description": "While powers may develop in a more diverse fashion over time, all new vampires begin their undead existence inheriting one special ability from their progenitor. This ability is random.",
+					"quest_starter": "Two newborn vampires don’t know where they come from, but believe their share the same progenitor. What power do they share? Why do you agree to help? Who is the progenitor?",
 					"oracles": {}
 				}
 			],
@@ -13007,9 +13007,9 @@
 						"min": 1,
 						"max": 33
 					},
-					"summary": "Mortals remain blissfully ignorant of vampires.",
-					"description": "Few mortals are aware of the existence of vampires, as the Façade remains strong and well-guarded.",
-					"quest_starter": "A mortal investigator has come dangerously close to uncovering the truth. How do you handle them?",
+					"summary": "While it’s not exactly legal, it’s not uncommon for vampires to have human allies of some sort.",
+					"description": "Having connections with individuals possessing valuable skills or occupying influential positions is advantageous, whether one is undead or not. However, it’s crucial to exercise caution. Before disclosing your true nature, ensure that these individuals have a significant stake in maintaining your secret, that revealing the truth about you won’t be easily believed by others, and that they don't intend to harm you.",
+					"quest_starter": "A friendly mortal contact begs you to find her child, who has been kidnapped. How will you track down the culprits? Where is she? Do you ask something in return?",
 					"oracles": {}
 				},
 				{
@@ -13019,8 +13019,8 @@
 						"max": 67
 					},
 					"summary": "Some mortals suspect the truth.",
-					"description": "Myths, rumors, and conspiracies about vampires persist, and some mortals actively seek to prove their existence.",
-					"quest_starter": "A secret society dedicated to hunting vampires is operating in Santa Maria. How do you deal with them?",
+					"description": "While vampires may go unnoticed by the majority, certain secret societies possessing occult knowledge remain vigilant. Among them are black ops agencies dedicated to unveiling the vampiric nature, alongside centuries-old religious circles committed to eradicating every monstrous entity. Investigators, spies, vampire hunters, and paramilitary units pose a tangible threat to the vampire community. This alternative gives access to the Mortal Threats NPCs.",
+					"quest_starter": "Vampires are being killed in a serial fashion that seems to be the work of a skilled vampire killer. What’s her modus operandi? How do you intend to catch her? What’s in it for you?",
 					"oracles": {}
 				},
 				{
@@ -13029,9 +13029,9 @@
 						"min": 68,
 						"max": 100
 					},
-					"summary": "Mortals are aware of vampires.",
-					"description": "Vampires are an open secret, and society has adapted to coexist with them—albeit uneasily.",
-					"quest_starter": "A mortal lawmaker proposes harsh restrictions on vampire activities. How do you influence this process?",
+					"summary": "Basically no one knows vampires exist.",
+					"description": "Beside mannequins — the human blood bags some vampires have — the Façade requires absolute secrecy and is enforced in a very efficient way. Those who know too much are immediately silenced.",
+					"quest_starter": "Someone took pictures of you while you were feeding. This could mean a devastating blow to the Façade and a sentence for you. How can you prevent them from causing this damage? Where can you find the photographer? Who is behind all this?",
 					"oracles": {}
 				}
 			],
@@ -13060,9 +13060,9 @@
 						"min": 1,
 						"max": 33
 					},
-					"summary": "The internet is a useful tool for vampires.",
-					"description": "Vampires use the internet to communicate, gather information, and maintain the Façade with relative ease.",
-					"quest_starter": "A hacker has discovered a vampire-only online forum and threatens to expose it. What steps do you take?",
+					"summary": "Using the internet is prohibited by law.",
+					"description": "In today’s world, no information is truly secure. A single slip, and the Façade will crumble.",
+					"quest_starter": "A ghost hunting YouTube show crew just got actual vampire activity on camera. What did they capture? How will you protect the Façade from them?",
 					"oracles": {}
 				},
 				{
@@ -13071,9 +13071,9 @@
 						"min": 34,
 						"max": 67
 					},
-					"summary": "The internet poses significant risks.",
-					"description": "The transparency of the digital age has made it harder for vampires to remain hidden, leading to frequent breaches of the Façade.",
-					"quest_starter": "A viral video appears to capture undeniable evidence of vampiric activity. How do you address the fallout?",
+					"summary": "Using the internet is permitted.",
+					"description": "As long as you keep your unnatural habits away from social media and use fake accounts, you may use the internet however you want.",
+					"quest_starter": "A couple of young vampires share their unlives openly in social media. Why do you step in to stop them? What’s the last Façade-breaking thing they tweeted?",
 					"oracles": {}
 				},
 				{
@@ -13082,9 +13082,9 @@
 						"min": 68,
 						"max": 100
 					},
-					"summary": "Vampires avoid the internet.",
-					"description": "Fearing exposure and surveillance, most vampires steer clear of the digital world, relying on older methods of communication.",
-					"quest_starter": "A mortal journalist questions why you are absent from online records. How do you explain this?",
+					"summary": "Vampires have their own network, the umbernet.",
+					"description": "Even though regular internet use is prohibited, the umbernet links all major vampire cities in a secure web, resistant to mortal interference and private. While it doesn’t encompass all the information available on the internet, its functionality is similar.",
+					"quest_starter": "Sensitive documents of one of your acquaintances were leaked from the umbernet to the internet. How do you intend to investigate this case? What does she promise you in return for your aid in finding the culprit?",
 					"oracles": {}
 				}
 			],
@@ -13113,9 +13113,9 @@
 						"min": 1,
 						"max": 33
 					},
-					"summary": "Rebels seek to overthrow vampire society.",
-					"description": "Dissatisfied with the current order, these vampires aim to dismantle traditional hierarchies and establish a new regime.",
-					"quest_starter": "A rebel leader offers you a place in their ranks. Why do you consider—or reject—their offer?",
+					"summary": "Plenty of vampires don’t agree totally with the queen, and sometimes they form groups.",
+					"description": "These groups can be united by any social or political idea. The bigger ones can even have some influence, but they are never powerful enough to actually challenge the queen.",
+					"quest_starter": "A small group of vampires is accusing and exposing a corrupt, bloodthirsty captain they want to take down. Why is taking part in this situation important to you? Who do you support?",
 					"oracles": {}
 				},
 				{
@@ -13124,9 +13124,9 @@
 						"min": 34,
 						"max": 67
 					},
-					"summary": "Rebels challenge specific norms.",
-					"description": "Not all rebels seek revolution; some fight for changes within the system, targeting outdated customs or oppressive practices.",
-					"quest_starter": "A group of young vampires begins to protest a centuries-old law. How do you become involved in their movement?",
+					"summary": "Those who don’t agree with the queen’s rule will be silenced or punished.",
+					"description": "The queen’s law is absolute. Any organized political divergence from the traditions that hold her in power is a threat that must be eliminated.",
+					"quest_starter": "Your progenitor was accused of conspiring against the queen. Written evidence that connects her to a radical group was found, but she swears the letters are forged. Who is the culprit?",
 					"oracles": {}
 				},
 				{
@@ -13135,8 +13135,8 @@
 						"min": 68,
 						"max": 100
 					},
-					"summary": "Rebels are outcasts.",
-					"description": "Rebels are a fringe element, shunned and hunted by mainstream vampire society for their defiance.",
+					"summary": "The Agorean Movement is an independent Faction that questions the queen’s authority and governs part of Santa Maria.",
+					"description": "They advocate for individual freedom and self-governance, and resist the constraints of the queen’s law. While their ranks include diverse ideologies, from idealists to nihilists, the common thread among them is a desire to challenge authority, question ancient traditions, and create a more egalitarian and liberated existence for vampires. This alternative gives access to the Agorean Movement NPCs.",
 					"quest_starter": "A rebel in hiding seeks your protection. Why do you help—or betray—them?",
 					"oracles": {}
 				}
@@ -13166,9 +13166,9 @@
 						"min": 1,
 						"max": 33
 					},
-					"summary": "Blood sorcery is a rare and forbidden art.",
-					"description": "Only a few vampires dare to practice this dangerous magic, as it is heavily restricted by vampire law.",
-					"quest_starter": "A powerful sorcerer demands a rare ingredient for a ritual. Why do you choose to aid—or oppose—them?",
+					"summary": "The powers of blood don’t manifest themselves through silly rituals.",
+					"description": "While some individuals may follow peculiar esoteric traditions, the concept of vampiric blood sorcery is nonexistent in our world. Rituals are not a part of our reality.",
+					"quest_starter": "A vampire is conducting mystical ceremonies involving animal sacrifice. The disappearance of numerous animals are making mortal society suspicious. How do you make her stop? What is her favorite animal to sacrifice, and why?",
 					"oracles": {}
 				},
 				{
@@ -13177,9 +13177,9 @@
 						"min": 34,
 						"max": 67
 					},
-					"summary": "Blood sorcery is widely practiced.",
-					"description": "Many vampires use blood sorcery to enhance their powers, though it often comes with significant risks and costs.",
-					"quest_starter": "A rival vampire challenges you to a duel of sorcery. What stakes do you set, and how do you prepare?",
+					"summary": "Vampires who know blood sorcery rituals are rare, but often powerful and wise.",
+					"description": "They keep out of sight, so their methods stay secret, but they sometimes take vampires as pupils when they are worthy.",
+					"quest_starter": "Rumors say there’s an elder in Santa Maria who could teach you rituals — if you manage to find and convince her. Why are you so eager to be her apprentice? Where will you start looking for her?",
 					"oracles": {}
 				},
 				{
@@ -13188,9 +13188,9 @@
 						"min": 68,
 						"max": 100
 					},
-					"summary": "Blood sorcery is mysterious and unpredictable.",
-					"description": "No one fully understands the origins or mechanics of blood sorcery, making it a source of both fascination and fear.",
-					"quest_starter": "An ancient text detailing lost sorceries has been uncovered. What lengths will you go to obtain it?",
+					"summary": "The Circle of Circe is a large, influential group of vampire mystics.",
+					"description": "They are meticulous in their studies, developing complex rituals, and mastering the manipulation of supernatural forces. Their focus on the arcane arts gives them a reputation for being scholars and guardians of occult knowledge within the vampire society. This alternative gives access to the Circle of Circe NPCs.",
+					"quest_starter": "A bag of werewolf blood has been located in the local medical clinic. This not only endangers the Façade, as it would make a potent concoction for rituals, according to the vampire that contacts you. Why are you trusted with this quest? What do you get in return?",
 					"oracles": {}
 				}
 			],
@@ -13219,9 +13219,9 @@
 						"min": 1,
 						"max": 33
 					},
-					"summary": "Religion condemns vampires.",
-					"description": "Vampires are seen as cursed beings, and religious institutions often seek to destroy them.",
-					"quest_starter": "A priest begins to rally mortals against vampires in Santa Maria. How do you counter their influence?",
+					"summary": "The government has tones of faith.",
+					"description": "The most important practices are held in a cult-like fashion, and the queen and other important figures act as priestesses in these situations. It’s something purely ceremonial, but it reflects the idea that the queen and her peers are more than simple vampires.",
+					"quest_starter": "An important ceremony that will happen soon requires half the blood of at least 3 mortals. Why does the queen trust you with to collect it?",
 					"oracles": {}
 				},
 				{
@@ -13230,9 +13230,9 @@
 						"min": 34,
 						"max": 67
 					},
-					"summary": "Vampires hold religious beliefs.",
-					"description": "Many vampires adhere to faiths that accommodate their existence, blending mortal and vampiric spirituality.",
-					"quest_starter": "A sacred relic important to vampires is stolen. What role do you play in retrieving it?",
+					"summary": "The Epitaph Order is a large and influential religious organization.",
+					"description": "On the one hand, faith and religion may be ignored by most vampires. On the other hand, they unite many vampires under a large group with its own particular interests. This alternative gives access to the Epitaph Order NPCs.",
+					"quest_starter": " A local mortal preacher has been saying things that go against the Epitaph Order’s ideals. What commandment do they inspire humans to break? Why do you agree to silence her?",
 					"oracles": {}
 				},
 				{
@@ -13241,9 +13241,9 @@
 						"min": 68,
 						"max": 100
 					},
-					"summary": "Religion is intertwined with vampirism.",
-					"description": "Some religious groups secretly include vampires, seeing them as chosen or cursed in alignment with their doctrines.",
-					"quest_starter": "A religious sect offers you sanctuary and demands loyalty in return. How do you respond?",
+					"summary": "Almost no undead believes in a bigger power.",
+					"description": "A few make prayers and have group meetings, but they have no political influence.",
+					"quest_starter": "A vampire who was devoutly religious in life now attends nightly ceremonies associated with her former faith, drawing the curiosity of mortals who sense something’s wrong about her. What’s giving away she’s not like them? How do you prevent her nature from being discovered by others?",
 					"oracles": {}
 				}
 			],
@@ -13272,9 +13272,9 @@
 						"min": 1,
 						"max": 33
 					},
-					"summary": "Deviance is rare among vampires.",
-					"description": "Most vampires adhere strictly to tradition and the Façade, avoiding behaviors that could endanger their kind.",
-					"quest_starter": "A young vampire's reckless actions threaten the Façade. How do you intervene?",
+					"summary": "Vampires rarely break the three moral laws buried within their nature.",
+					"description": "Everybody has heard of a vampire drinking the blood of another, turning mortals into vampires without thinking twice, or even revealing their nature despite the risk, but they’re really abnormal cases.",
+					"quest_starter": "You hear rumors of a group of vampires killing others to use their vampiric blood to conduct dark, esoteric rites. What’s their story? What do they seek through these rites? Why do you swear to stop them?",
 					"oracles": {}
 				},
 				{
@@ -13283,9 +13283,9 @@
 						"min": 34,
 						"max": 67
 					},
-					"summary": "Deviance is a growing problem.",
-					"description": "Some vampires challenge traditions and norms, creating conflict within vampire society.",
-					"quest_starter": "A group of deviant vampires invites you to join them. What do they offer, and what risks does this pose?",
+					"summary": "A large group of vampires called the Egregoros rejects the three basic vampire laws and opposes anyone standing by them.",
+					"description": "They embrace a more anarchic and brutal existence, engaging in open warfare against their enemies and resorting to violence. This alternative gives access to the Egregoros NPCs.",
+					"quest_starter": "Rumors say the Egregoros are planning to turn a serial killer into a vampire in one of their macabre rituals. How will you stop their plans?",
 					"oracles": {}
 				},
 				{
@@ -13294,9 +13294,9 @@
 						"min": 68,
 						"max": 100
 					},
-					"summary": "Deviance is widespread.",
-					"description": "Many vampires have abandoned traditional rules, forcing society to adapt or risk collapse.",
-					"quest_starter": "A powerful vampire leader plans to reform society to accommodate deviance. What role do you play in their plans?",
+					"summary": "Vampires who create blood links with others of their kind or even mortals are common.",
+					"description": "They usually do it to establish a relationship of dominance and influence over the other individual.",
+					"quest_starter": "A nightclub owner is compelling her human employees to drink her blood, binding them as servants through blood linking. They exhibit extreme submissiveness towards her, but tensions arise as they begin to compete for their employer’s favor. Why do you intervene in this situation?",
 					"oracles": {}
 				}
 			],
@@ -13325,9 +13325,9 @@
 						"min": 1,
 						"max": 33
 					},
-					"summary": "Werewolves are mortal enemies of vampires.",
-					"description": "Vampires and werewolves have an ancient feud, resulting in violent confrontations whenever they meet.",
-					"quest_starter": "A werewolf pack moves into Santa Maria, threatening your territory. How do you respond?",
+					"summary": "They live in packs within the city and call themselves lycanthropes.",
+					"description": "Werewolves are another type of creature that hides in the night. Vampires and them are not necessarily enemies: sometimes, they cooperate to keep their existences in the shadows. This alternative gives access to the Lycanthrope NPCs.",
+					"quest_starter": "A pack of lycanthropes has taken an interest in a particular place, disrupting the local vampire hierarchy. Why do you involve yourself in this territorial dispute?",
 					"oracles": {}
 				},
 				{
@@ -13336,9 +13336,9 @@
 						"min": 34,
 						"max": 67
 					},
-					"summary": "Werewolves and vampires coexist uneasily.",
-					"description": "While conflicts occur, both sides maintain an uneasy truce to avoid unnecessary bloodshed.",
-					"quest_starter": "A werewolf requests your help against a common enemy. What do they offer in return?",
+					"summary": "Are a subtype of mindless solitary monsters we call beast people.",
+					"description": "Beast people are mortals who turn into mindless monsters when the moon is full. Some turn into wolf-people, while others assume forms that remember cats, rats, bears, etc. They’re never organized. This alternative gives access to the Beast People NPCs.",
+					"quest_starter": "A werecat is terrorizing an area of Santa Maria and bringing unwanted attention from mortals. How will you eliminate this threat?",
 					"oracles": {}
 				},
 				{
@@ -13347,9 +13347,9 @@
 						"min": 68,
 						"max": 100
 					},
-					"summary": "Werewolves are allies.",
-					"description": "Vampires and werewolves share common goals and often work together, though mistrust lingers.",
-					"quest_starter": "A werewolf ally asks for your help in a dangerous ritual. What risks are involved, and why do you agree?",
+					"summary": "Tribes of werewolves habit the wild. They call themselves varou.",
+					"description": "They’re almost as numerous as vampires and are organized according to acomplex tribal hierarchy. They seek to defend the natural balance of the universe against natural and unnatural threats. Because of that, vampires are their mortal enemies. This alternative gives access to the Varou NPCs.",
+					"quest_starter": " A varou has been killing vampires that wander through a large park. Why do you promise to eliminate it or drive it away? What is your plan?",
 					"oracles": {}
 				}
 			],
@@ -13369,7 +13369,7 @@
 		"elegies": {
 			"_id": "truth:elegy/elegies",
 			"type": "truth",
-			"name": "Elegies",
+			"name": "Elegies: The precious promises vampires make one another…",
 			"dice": "1d100",
 			"options": [
 				{
@@ -13378,9 +13378,9 @@
 						"min": 1,
 						"max": 33
 					},
-					"summary": "Elegies are forgotten.",
-					"description": "These haunting songs of loss and memory have faded from vampire society, known only to the oldest among them.",
-					"quest_starter": "An ancient vampire offers to teach you an elegy. What must you do to earn their trust?",
+					"summary": "…are documents written on paper and marked with a drop of blood.",
+					"description": "It can be a letter paper, a notebook page or even a napkin. Regardless of the material, it is treated as a contract. After singing an elegy, a vampire sheds a drop of blood on it and hands it to the one to whom she has sworn — or puts it in a safe place if she made the promise to herself.",
+					"quest_starter": "Your progenitor writes her elegies in a special paper collection she owns. However, this collection was unfortunately stolen. What will you do to the culprit? Why is this collection so important?",
 					"oracles": {}
 				},
 				{
@@ -13389,9 +13389,9 @@
 						"min": 34,
 						"max": 67
 					},
-					"summary": "Elegies are preserved.",
-					"description": "Vampires maintain a rich tradition of elegies, which serve as both art and history.",
-					"quest_starter": "A rival vampire challenges you to perform an elegy at a gathering. How do you prepare, and what story do you choose to tell?",
+					"summary": "…are made verbally and contemplated in meditation..",
+					"description": "Elegies are crafted like any promise, whether written or spoken. The vampire who creates one dedicates a few minutes to half an hour in silence and solitude, concentrating on it and visualizing its fulfillment.",
+					"quest_starter": "While you were meditating on an elegy, the vivid image of a vampire smiling at you suddenly appeared in your mind. What strong emotion did this make you feel? Why does her appearance evoke in you a desire to discover who she is?",
 					"oracles": {}
 				},
 				{
@@ -13400,9 +13400,9 @@
 						"min": 68,
 						"max": 100
 					},
-					"summary": "Elegies are evolving.",
-					"description": "Modern vampires have adapted elegies to contemporary styles, blending old and new in innovative ways.",
-					"quest_starter": "A young vampire creates a controversial new elegy. How do you react, and what does it mean for vampire society?",
+					"summary": "…are sealed by a bloody handshake.",
+					"description": "After a vampire sings an elegy to another individual, each one bites her own palm. They then shake hands, allowing the blood of both to intermingle. When a vampire sings an elegy for herself, she bites both hands and holds them together.",
+					"quest_starter": "According to your progenitor, the mummified hand of an ancient vampire is somewhere in Santa Maria.",
 					"oracles": {}
 				}
 			],
@@ -13431,9 +13431,9 @@
 						"min": 1,
 						"max": 33
 					},
-					"summary": "Mortals rarely possess magic.",
-					"description": "Magic is rare among mortals, and those who wield it are often unaware of their potential.",
-					"quest_starter": "A mortal accidentally casts a spell that reveals vampire activity. How do you address the situation?",
+					"summary": "The Crystal Compass is a global mage organization.",
+					"description": "They follow their own individual path into magical enlightenment. This alternative gives access to the Crystal Compass NPCs.",
+					"quest_starter": "Your progenitor suspects a mage from the Crystal Compass is plotting to assassinate her other progeny. What evidence does she have? How will you stop this assassin?",
 					"oracles": {}
 				},
 				{
@@ -13442,8 +13442,8 @@
 						"min": 34,
 						"max": 67
 					},
-					"summary": "Mortal magic is an emerging threat.",
-					"description": "Mortals are beginning to harness magic deliberately, posing new challenges for vampires.",
+					"summary": "There are a few occultists in Santa Maria.",
+					"description": "They’re not that many or that powerful. When they’re organized, they form small groups. This alternative gives access to the Occultist Mortal NPC.",
 					"quest_starter": "A group of mortal sorcerers forms a pact to hunt vampires. How do you confront them?",
 					"oracles": {}
 				},
@@ -13453,9 +13453,9 @@
 						"min": 68,
 						"max": 100
 					},
-					"summary": "Mortal magic rivals vampiric powers.",
-					"description": "Mortals with magic are formidable adversaries, and some vampires even seek alliances with them.",
-					"quest_starter": "A mortal magician offers you a powerful enchantment—for a price. What do they demand, and how do you respond?",
+					"summary": "Human beings have no supernatural power.",
+					"description": "Nothing will happen if they try to cast a spell or perform a ritual.",
+					"quest_starter": "A mortal who claims to be a vampire is being accused of practicing dark magic by their neighbor. Why do you swear to defuse this situation?",
 					"oracles": {}
 				}
 			],
