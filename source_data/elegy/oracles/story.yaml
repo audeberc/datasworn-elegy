@@ -24,6 +24,7 @@ oracles:
           dice: 1d100
           _source:
             <<: *Source
+            page: 136
           rows:
             - roll: { min: 1, max: 2 }
               text: Affirms a previously understood fact or clue
@@ -135,6 +136,7 @@ oracles:
           dice: 1d100
           _source:
             <<: *Source
+            page: 137
           rows:
             - roll: { min: 1, max: 3 }
               text: Supernatural power fails
@@ -211,6 +213,7 @@ oracles:
           dice: 1d100
           _source:
             <<: *Source
+            page: 137
           rows:
             - roll: { min: 1, max: 2 }
               text: Influential vampire disappears mysteriously

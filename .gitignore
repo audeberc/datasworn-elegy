@@ -1,21 +1,4 @@
-**/node_modules
-i18n
+node_modules/
+datasworn/
+dist/
 .DS_Store
-analysis
-analysis_strings
-cspell.config.yaml
-.np-config.json
-.npmrc
-src/templates
-.scratchpad
-temp
-
-
-# WIP locale data
-**/i18n/en
-
-!/source_data/**
-haxesworn
-
-**/__pycache__
-**/.venv

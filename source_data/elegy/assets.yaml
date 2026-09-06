@@ -14,7 +14,7 @@ assets:
       name: Elegy Assets
       type: asset_collection
       description: |-
-        __Assets__ represent your abilities, background,skills, traits, and resources. When you create your character, you pick three assets.
+        __Assets__ represent your abilities, background, skills, traits, and resources. When you create your character, you pick three assets.
       contents:
         acute_senses:
           type: asset
@@ -114,9 +114,9 @@ assets:
                 If you drink blood from someone you performed to or who has seen your art, restore full blood.
 
             - text: |-
-                You can find deep meaning within art. When you analyze a work of art, decide what to look for:
-                  * Insight: Roll +intellect and add +1. On a hit, envision what helpful idea it revealed to you, and take +2 focus.
-                  * Comfort: Roll +heart and add +1. On a hit, envision how the experience brought you comfort. Restore +3 spirit.
+                You can find deep meaning within art. When you analyze a work of art, choose your approach:
+                  * Look for insight: Roll +intellect and add +1. On a hit, envision (or ask the oracle for) what helpful truth, concept or idea it revealed to you, and take +2 focus.
+                  * Look for comfort: Roll +heart and add +1. On a hit, envision (or ask the oracle for) what comfort the experience brought to you, and restore +3 spirit.
 
         blood_alchemy:
           type: asset
@@ -251,7 +251,7 @@ assets:
           requirement: None
           abilities:
             - text: |-
-                Your vehicle provides speedy transport. When you drive fast or dangerously, add +1 and take +1 focus on a hit. On a strong hit with a match, take +1 focus.
+                You have a vehicle. When you drive fast or dangerously, add +1 and take +1 focus on a hit. On a strong hit with a match, take +1 focus.
               enabled: true
 
             - text: |-
@@ -473,7 +473,7 @@ assets:
           requirement: None
           abilities:
             - text: |-
-                When you meet a victim in the eyes, you may give it a simple command that will be obeyed instantly (“leave”, “follow”) unless it’s harmful to them or impossible (“die”, “fly”). The victim goes into a trance until right after the action, and won’t recall the incident.
+                When you meet a victim in the eyes, you may give it a simple command that will be obeyed instantly (“leave”, “follow”, “grab”) unless it’s harmful to them or impossible (“die”, “fly”). The victim goes into a trance until right after the action, and won’t recall the incident.
               enabled: true
 
             - text: |-
@@ -537,7 +537,30 @@ assets:
               enabled: true
 
             - text: |-
-                When you conduct extended research or study, re-roll any dice. On a match, you piece together an extraordinary or harrowing new theory; envision the nature 
+                When you conduct extended research or study, re-roll any dice. On a match, you piece together an extraordinary or harrowing new theory; envision the nature of this revelation and take +1 forward if you act on it.
+
+            - text: |-
+                When you recall esoteric knowledge to your advantage, add +1. On a hit, envision the obscure but helpful fact, theory, or technique you put to use, and take +1 focus.
+
+        lunacy:
+          type: asset
+          category: Power
+          _source:
+            <<: &AssetSource
+              <<: *Source
+            page: 13
+          name: Lunacy
+          requirement: None
+          abilities:
+            - text: |-
+                You are able to heighten or dull someone’s current emotions (turn mild irritation into violent rage, or obsession into disinterest).
+              enabled: true
+
+            - text: |-
+                You can disturb someone’s senses with flashes of content of their unconscious that will make them lose touch with reality for one minute.
+
+            - text: |-
+                You can make your victim mistake theirs or others’ identity. For example, you can make someone think they’re Napoleon, or think her wife is secretly an alien in disguise. This effect lasts for one scene.
 
         magnetism:
           type: asset
@@ -574,7 +597,7 @@ assets:
               enabled: true
 
             - text: |-
-                Your mannequin trusts you way more than they should. When you gather info about the mortal world from your mannequin, you may re-roll any dice.
+                Your mannequin trusts you way more than they should. When you gather info about the mortal world by speaking to your mannequin, you may re-roll any dice.
 
             - text: |-
                 Having a steady source of blood brings you peace of mind. When you feed from your mannequin, take +1 spirit on a hit, and +2 spirit on a match.
@@ -733,13 +756,16 @@ assets:
           abilities:
             - text: |-
                 You can sense the intentions of people around you. When you are next to other individuals, you can awaken your powers to ask two of the following questions to the oracle. Then, add +1 and take +1 focus the next move related to the answer.
-                - Who's the most susceptible person in here?
+                - Who's the weakest person in here?
                 - Who's most likely to harm me?
                 - Who's most likely to give me what I want?
               enabled: true
 
             - text: |-
-                You can read people’s thoughts and memories. Once per night, you may psychically inspect the mind of someone next to you as if it were a book. When you hold an object in your hands, you are able to pick up psychic impressions from it and learn who held it last and when it was last held.
+                You can read people’s thoughts and memories. Once per night, you may psychically inspect the mind of someone next to you as if it were a book.
+
+            - text: |-
+                When you hold an object in your hands, you are able to pick up psychic impressions from it and learn who held it last and when it was last held.
 
         stalker:
           type: asset
@@ -836,7 +862,7 @@ assets:
               enabled: true
 
             - text: |-
-                In some ways, time brought you closer to the mortals around you. Whenever you communicate with or read the emotions of humans, add +1 and take +1 focus on a hit.
+                In some ways, time brought you even closer to your late humanity and to the mortals around you. Whenever you communicate with or read the emotions of humans, add +1 and take +1 focus on a hit.
 
             - text: |-
                 Your experience with your distinct nature shaped your presence differently than other vampires. Whenever you hide your vampiric nature from other vampires or even mortals, re-roll any dice.
@@ -931,16 +957,18 @@ assets:
             page: 16
           name: Path of the Guardian
           requirement: None
+          description: |-
+            If you possess more than one point of this asset, you can choose to repel only certain types of creatures. For instance, even with points 1 and 2, you can opt to repel only supernatural living creatures if desired.
           abilities:
             - text: |-
                 When you draw a circle in blood and chant magic words, the area will magically repel mortals and animals.
               enabled: true
 
             - text: |-
-                When you possess more than one point of this asset, you can choose to repel only certain types of creatures. For instance, even with points 1 and 2, you can opt to repel only supernatural living creatures if desired.
+                When you draw a circle in blood and chant magic words, the area will magically repel supernatural living creatures.
 
             - text: |-
-                You can repel vampires and the undead.
+                When you draw a circle in blood and chant magic words, the area will magically repel vampires and the undead.
 
         path_of_the_pursuer:
           type: asset
@@ -993,14 +1021,14 @@ assets:
           requirement: None
           abilities:
             - text: |-
-                When you wash your face in blood and speak the name of a victim, she will experience intense hunger. A vampire will be induced to starvation, and will act out of hunger.
+                When you wash your face in blood and speak the name of a victim, she will experience intense hunger. A vampire will be induced to starvation, and will act out of instinct, impulse and hunger.
               enabled: true
 
             - text: |-
                 When you burn a piece of paper marked with your bloody hand print and say the name of a vampire within a one-kilometer radius, the victim will lose the reanimating power of blood and turn into a corpse for a whole night.
 
             - text: |-
-                This ceremony is only potent against living entities. By burning a strand of hair, or any other refuse from the subject’s body, and uttering mystical incantations, a curse is placed that you can activate at will. When you do, the victim’s throat splits, and their bowels forcefully expel from their body, leading to almost certain death, even with immediate medical intervention.
+                This ceremony is only potent against living entities. By burning a strand of hair, a nail clipping, or any other refuse from the subject’s body, and uttering mystical incantations, a curse is placed that you can activate at will. When you do, the victim’s throat splits, and their bowels forcefully expel from their body, leading to almost certain death, even with immediate medical intervention.
 
         path_of_the_tongue:
           type: asset

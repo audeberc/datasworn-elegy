@@ -22,8 +22,8 @@ oracles:
         dice: 1d100
         canonical_name: 'Action'
         suggestions:
-            - oracle_rollable:classic/action_and_theme/theme
-        summary: Use this table to inspire a discovery, event, character goal, or situation. A roll on this table can be combined with a [Theme](datasworn:oracle_rollable:classic/action_and_theme/theme) to provide an action and a subject. Then, interpret the result based on the context of the question and your current situation.
+            - oracle_rollable:elegy/action_and_theme/themes
+        summary: Use this table to inspire a discovery, event, character goal, or situation. A roll on this table can be combined with a [Theme](datasworn:oracle_rollable:elegy/action_and_theme/themes) to provide an action and a subject. Then, interpret the result based on the context of the question and your current situation.
         _source:
           <<: *Source
           page: 134

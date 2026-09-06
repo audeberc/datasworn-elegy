@@ -1,0 +1,37 @@
+name: Release
+
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - ready_for_review
+      - labeled
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      dry-run:
+        description: Calculate release actions without publishing.
+        type: boolean
+        default: false
+
+jobs:
+  experimental-release:
+    if: github.event_name == 'pull_request' && github.repository != 'datasworn-community/community-template'
+    permissions:
+      contents: read
+      id-token: write
+      pull-requests: write
+    uses: datasworn-community/.github/.github/workflows/content-experimental-release.yml@v1.3.0
+
+  release:
+    if: github.event_name != 'pull_request' && github.repository != 'datasworn-community/community-template'
+    permissions:
+      contents: read
+      id-token: write
+    uses: datasworn-community/.github/.github/workflows/content-release.yml@v1.3.0
+    with:
+      dry-run: ${{ inputs['dry-run'] || false }}

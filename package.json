@@ -1,68 +1,22 @@
 {
-  "name": "@datasworn/tools",
-  "version": "0.1.0",
-  "description": "Internal tools used to develop Datasworn packages.",
-  "type": "module",
+  "name": "@datasworn-community/datasworn-elegy",
+  "version": "0.0.0",
   "private": true,
-  "workspaces": [
-    "pkg/nodejs/@datasworn/core",
-    "pkg/nodejs/@datasworn/ironsworn-classic",
-    "pkg/nodejs/@datasworn/ironsworn-classic-delve",
-    "pkg/nodejs/@datasworn/starforged",
-    "pkg/nodejs/@datasworn/sundered-isles"
-  ],
-  "scripts": {
-    "check": "tsc --project tsconfig.json --noEmit",
-    "build:schema": "bun ./src/scripts/schema/buildSchema.ts",
-    "build:jtd": "bun ./src/scripts/json-typedef/index.ts",
-    "build:dts": "bun ./src/scripts/codegen/writeTypescriptTypes.ts",
-    "build:json": "bun ./src/scripts/datasworn/writeDatasworn.ts",
-    "build:pkg": "bun ./src/scripts/pkg/nodejs/buildPackages.ts && tsc --project ./src/pkg-core/tsconfig.json",
-    "build": "bun ./src/scripts/pkg/nodejs/updatePackageVersions.ts && bun run build:schema && bun run build:jtd && bun run build:dts && bun run build:json && bun run build:pkg",
-    "pkg:node": "bun ./src/scripts/pkg/nodejs/publishPackages.ts",
-    "release": "npm run release --workspaces"
-  },
+  "type": "module",
+  "description": "Datasworn source and generated package artifacts for Elegy 3.5.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rsek/datasworn.git"
+    "url": "git+https://github.com/datasworn-community/datasworn-elegy.git"
   },
-  "keywords": ["ironsworn", "starforged", "TTRPG"],
-  "author": {
-    "name": "rsek",
-    "email": "r.sekouri@gmail.com",
-    "url": "https://github.com/rsek"
+  "scripts": {
+    "build": "datasworn-build --config datasworn.config.yaml",
+    "validate": "test -f dist/packages/elegy/package.json && test -f dist/packages/elegy/json/elegy.json && test -f generated-datasworn/manifest.json && test -f generated-datasworn/elegy.json && node scripts/validate-self-contained.mjs"
   },
-  "license": "SEE LICENSE IN LICENSE.md",
-  "bugs": {
-    "url": "https://github.com/rsek/datasworn/issues"
+  "engines": {
+    "bun": ">=1.3"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.8.3",
-    "@release-it/bumper": "^6.0.1",
-    "@types/bun": "^1.1.6",
-    "@types/json-pointer": "^1.0.34",
-    "@types/json-schema": "^7.0.15",
-    "@types/lodash-es": "^4.17.12",
-    "esbuild": "0.23.0",
-    "json-schema": "^0.4.0",
-    "release-it": "^17.6.0",
-    "tsconfig-paths": "^4.2.0",
-    "type-fest": "^4.24.0",
-    "typescript": "^5.5.4"
-  },
-  "dependencies": {
-    "@sinclair/typebox": "^0.33.4",
-    "@sinclair/typebox-codegen": "^0.10.4",
-    "@swc/core": "^1.7.10",
-    "ajv": "^8.17.1",
-    "ajv-formats": "^3.0.1",
-    "json-pointer": "^0.6.2",
-    "json-schema-library": "^10.0.0-rc2",
-    "jtd": "^0.1.1",
-    "lodash-es": "^4.17.21",
-    "remark": "^15.0.1",
-    "semver": "^7.6.3",
-    "winston": "^3.14.1",
-    "yaml": "^2.5.0"
+    "@datasworn-community/build-tools": "0.3.0",
+    "@datasworn-community/core": "0.3.0"
   }
 }

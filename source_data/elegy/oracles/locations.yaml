@@ -24,6 +24,7 @@ oracles:
         dice: 1d100
         _source:
           <<: *Source
+          page: 141
         rows:
           - roll: { min: 1, max: 1 }
             text: City Hall
@@ -88,140 +89,142 @@ oracles:
           - roll: { min: 31, max: 31 }
             text: Bookstore
           - roll: { min: 32, max: 32 }
-            text: Music Venue
+            text: Yoga Studio
           - roll: { min: 33, max: 33 }
-            text: Grocery Store
+            text: Music Venue
           - roll: { min: 34, max: 34 }
-            text: Park Bench
+            text: Grocery Store
           - roll: { min: 35, max: 35 }
-            text: Public Pool
+            text: Park Bench
           - roll: { min: 36, max: 36 }
-            text: Laundromat
+            text: Public Pool
           - roll: { min: 37, max: 37 }
-            text: Pharmacy
+            text: Laundromat
           - roll: { min: 38, max: 38 }
-            text: Hardware Store
+            text: Pharmacy
           - roll: { min: 39, max: 39 }
-            text: Bike Shop
-          - roll: { min: 40, max: 40 }
-            text: Food Truck Park
-          - roll: { min: 41, max: 41 }
-            text: Public Restroom
-          - roll: { min: 42, max: 42 }
-            text: Office Building
-          - roll: { min: 43, max: 43 }
-            text: Beauty Salon
-          - roll: { min: 44, max: 44 }
-            text: Gas Station
-          - roll: { min: 45, max: 45 }
-            text: Food Court
-          - roll: { min: 46, max: 46 }
-            text: Library
-          - roll: { min: 47, max: 47 }
-            text: Skate Park
-          - roll: { min: 48, max: 48 }
-            text: Tennis Court
-          - roll: { min: 49, max: 49 }
-            text: Playground
-          - roll: { min: 50, max: 50 }
-            text: Mini Golf Course
-          - roll: { min: 51, max: 51 }
-            text: Car Dealership
-          - roll: { min: 52, max: 52 }
-            text: Bowling Alley
-          - roll: { min: 53, max: 53 }
-            text: Dog Park
-          - roll: { min: 54, max: 54 }
-            text: Golf Course
-          - roll: { min: 55, max: 55 }
-            text: Police Academy
-          - roll: { min: 56, max: 56 }
-            text: Bus Stop
-          - roll: { min: 57, max: 57 }
-            text: Comedy Club
-          - roll: { min: 58, max: 58 }
-            text: Flower Shop
-          - roll: { min: 59, max: 59 }
-            text: Antique Store
-          - roll: { min: 60, max: 60 }
-            text: Yoga Studio
-          - roll: { min: 61, max: 61 }
-            text: Movie Rental Store
-          - roll: { min: 62, max: 62 }
-            text: Music Store
-          - roll: { min: 63, max: 63 }
-            text: Garden
-          - roll: { min: 64, max: 64 }
-            text: Pawn Shop
-          - roll: { min: 65, max: 65 }
-            text: Escape Room
-          - roll: { min: 66, max: 66 }
-            text: Art Supply Store
-          - roll: { min: 67, max: 67 }
-            text: Thrift Store
-          - roll: { min: 68, max: 68 }
-            text: Dance Studio
-          - roll: { min: 69, max: 69 }
-            text: Recording Studio
-          - roll: { min: 70, max: 70 }
-            text: Boxing Gym
-          - roll: { min: 71, max: 71 }
             text: Hardware Store
-          - roll: { min: 72, max: 72 }
-            text: Brewery
-          - roll: { min: 73, max: 73 }
-            text: Music School
-          - roll: { min: 74, max: 74 }
-            text: Theater Company
-          - roll: { min: 75, max: 75 }
-            text: Retirement Home
-          - roll: { min: 76, max: 76 }
-            text: Auto Repair Shop
-          - roll: { min: 77, max: 77 }
-            text: Paintball Arena
-          - roll: { min: 78, max: 78 }
-            text: Farmers Market
-          - roll: { min: 79, max: 79 }
-            text: Trampoline Park
-          - roll: { min: 80, max: 80 }
-            text: Karaoke Bar
-          - roll: { min: 81, max: 81 }
-            text: Board Game Cafe
-          - roll: { min: 82, max: 82 }
-            text: Comic Book Store
-          - roll: { min: 83, max: 83 }
-            text: Furniture Store
-          - roll: { min: 84, max: 84 }
-            text: Tailor Shop
-          - roll: { min: 85, max: 85 }
+          - roll: { min: 40, max: 40 }
+            text: Bike Shop
+          - roll: { min: 41, max: 41 }
+            text: Food Truck Park
+          - roll: { min: 42, max: 42 }
+            text: Public Restroom
+          - roll: { min: 43, max: 43 }
+            text: Office Building
+          - roll: { min: 44, max: 44 }
+            text: Beauty Salon
+          - roll: { min: 45, max: 45 }
+            text: Gas Station
+          - roll: { min: 46, max: 46 }
+            text: Food Court
+          - roll: { min: 47, max: 47 }
+            text: Library
+          - roll: { min: 48, max: 48 }
+            text: Skate Park
+          - roll: { min: 49, max: 49 }
+            text: Tennis Court
+          - roll: { min: 50, max: 50 }
+            text: Playground
+          - roll: { min: 51, max: 51 }
+            text: Mini Golf Course
+          - roll: { min: 52, max: 52 }
+            text: Car Dealership
+          - roll: { min: 53, max: 53 }
+            text: Bowling Alley
+          - roll: { min: 54, max: 54 }
+            text: Dog Park
+          - roll: { min: 55, max: 55 }
+            text: Golf Course
+          - roll: { min: 56, max: 56 }
+            text: Police Academy
+          - roll: { min: 57, max: 57 }
+            text: Bus Stop
+          - roll: { min: 58, max: 58 }
+            text: Comedy Club
+          - roll: { min: 59, max: 59 }
+            text: Flower Shop
+          - roll: { min: 60, max: 60 }
+            text: Antique Store
+          - roll: { min: 61, max: 61 }
             text: Yoga Studio
+          - roll: { min: 62, max: 62 }
+            text: Movie Rental Store
+          - roll: { min: 63, max: 63 }
+            text: Music Store
+          - roll: { min: 64, max: 64 }
+            text: Garden
+          - roll: { min: 65, max: 65 }
+            text: Pawn Shop
+          - roll: { min: 66, max: 66 }
+            text: Escape Room
+          - roll: { min: 67, max: 67 }
+            text: Art Supply Store
+          - roll: { min: 68, max: 68 }
+            text: Thrift Store
+          - roll: { min: 69, max: 69 }
+            text: Dance Studio
+          - roll: { min: 70, max: 70 }
+            text: Recording Studio
+          - roll: { min: 71, max: 71 }
+            text: Boxing Gym
+          - roll: { min: 72, max: 72 }
+            text: Hardware Store
+          - roll: { min: 73, max: 73 }
+            text: Brewery
+          - roll: { min: 74, max: 74 }
+            text: Music School
+          - roll: { min: 75, max: 75 }
+            text: Theater Company
+          - roll: { min: 76, max: 76 }
+            text: Retirement Home
+          - roll: { min: 77, max: 77 }
+            text: Auto Repair Shop
+          - roll: { min: 78, max: 78 }
+            text: Paintball Arena
+          - roll: { min: 79, max: 79 }
+            text: Farmers Market
+          - roll: { min: 80, max: 80 }
+            text: Trampoline Park
+          - roll: { min: 81, max: 81 }
+            text: Karaoke Bar
+          - roll: { min: 82, max: 82 }
+            text: Board Game Cafe
+          - roll: { min: 83, max: 83 }
+            text: Comic Book Store
+          - roll: { min: 84, max: 84 }
+            text: Furniture Store
+          - roll: { min: 85, max: 85 }
+            text: Tailor Shop
           - roll: { min: 86, max: 86 }
-            text: Dance Club
+            text: Yoga Studio
           - roll: { min: 87, max: 87 }
-            text: Gym
+            text: Dance Club
           - roll: { min: 88, max: 88 }
-            text: Skate Shop
+            text: Gym
           - roll: { min: 89, max: 89 }
-            text: Shooting Range
+            text: Skate Shop
           - roll: { min: 90, max: 90 }
-            text: Home Decor Store
+            text: Shooting Range
           - roll: { min: 91, max: 91 }
-            text: Juice Bar
+            text: Home Decor Store
           - roll: { min: 92, max: 92 }
-            text: Pottery Studio
+            text: Juice Bar
           - roll: { min: 93, max: 93 }
-            text: Tea House
+            text: Pottery Studio
           - roll: { min: 94, max: 94 }
-            text: Boxing Studio
+            text: Tea House
           - roll: { min: 95, max: 95 }
-            text: Arts Center
+            text: Boxing Studio
           - roll: { min: 96, max: 96 }
-            text: Go-Kart Track
+            text: Arts Center
           - roll: { min: 97, max: 97 }
-            text: Laser Tag Arena
+            text: Go-Kart Track
           - roll: { min: 98, max: 98 }
-            text: Retro Arcade
+            text: Laser Tag Arena
           - roll: { min: 99, max: 99 }
+            text: Retro Arcade
+          - roll: { min: 100, max: 100 }
             text: Outdoor Concert Venue
 
       district:
@@ -233,6 +236,7 @@ oracles:
         dice: 1d6
         _source:
           <<: *Source
+          page: 142
         rows:
           - roll: { min: 1, max: 1 }
             text: Downtown
@@ -256,6 +260,7 @@ oracles:
         dice: 1d10
         _source:
           <<: *Source
+          page: 142
         rows:
           - roll: { min: 1, max: 1 }
             text: Blue Grove Hotel
@@ -287,6 +292,7 @@ oracles:
         dice: 1d10
         _source:
           <<: *Source
+          page: 142
         rows:
           - roll: { min: 1, max: 1 }
             text: Bubble Plex Cinema
@@ -318,6 +324,7 @@ oracles:
         dice: 1d10
         _source:
           <<: *Source
+          page: 142
         rows:
           - roll: { min: 1, max: 1 }
             text: Georgia Beach
@@ -349,6 +356,7 @@ oracles:
         dice: 1d10
         _source:
           <<: *Source
+          page: 142
         rows:
           - roll: { min: 1, max: 1 }
             text: Cielo Library
@@ -380,6 +388,7 @@ oracles:
         dice: 1d10
         _source:
           <<: *Source
+          page: 142
         rows:
           - roll: { min: 1, max: 1 }
             text: Castilla Mall
@@ -411,6 +420,7 @@ oracles:
         dice: 1d10
         _source:
           <<: *Source
+          page: 142
         rows:
           - roll: { min: 1, max: 1 }
             text: Brass Star convenience

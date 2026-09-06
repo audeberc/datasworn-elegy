@@ -1,9 +1,0 @@
-{
-	"$schema": "https://unpkg.com/release-it@17/schema/release-it.json",
-	"git": false,
-	"github": {
-		"release": true,
-		"autoGenerate": true,
-		"web": true
-	}
-}

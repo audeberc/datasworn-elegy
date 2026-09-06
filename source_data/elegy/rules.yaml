@@ -2,7 +2,7 @@ _id: elegy
 datasworn_version: "0.1.0"
 type: ruleset
 <<:  &Source
-  title: 'Elegy 3.5 truths'
+  title: 'Elegy 3.5'
   license: https://creativecommons.org/licenses/by-nc-sa/4.0
   url: https://miraclem.itch.io/elegy
   date: 2024-07-31
@@ -24,7 +24,6 @@ rules:
       label: blood
       max: 5
       value: 5
-      shared: true
       description: Blood represents how much your hunger for blood is sated.
   impacts:
     misfortunes:
@@ -33,64 +32,63 @@ rules:
       contents:
         wounded:
           label: wounded
-          description: Wounded may be marked when you are at 0 health and fail to [Endure Harm](datasworn:move:starforged/suffer/endure_harm). You are severely injured.
+          description: Wounded may be marked when you are at 0 health and suffer harm ([Endure Harm](datasworn:move:elegy/suffer/endure_harm)). You are severely injured.
           prevents_recovery:
             - health
         shaken:
           label: shaken
-          description: Shaken may be marked when you are at 0 spirit and fail to [Endure Stress](datasworn:move:starforged/suffer/endure_stress). You are despairing or distraught.
+          description: Shaken is marked when you are at 0 spirit and suffer stress ([Endure Stress](datasworn:move:elegy/suffer/endure_stress)). You are despairing or distraught.
           prevents_recovery:
             - spirit
         starving:
           label: starving
           description: Starving is marked when you are at 0 blood and lose blood. You are in a violent, hungry state. You lose 1 point of glamour and 1 of intellect.
-          shared: true
+          prevents_recovery:
+            - spirit
+            - blood
     lasting_effects:
       label: lasting effects
-      description: Lasting effects are permanent. They forever impact your character through the momentum adjustment and—more importantly—the narrative impact of being permanently harmed or traumatized. You should factor this impact into how you perform moves and how you interact with the world.
+      description: Lasting effects are permanent. They forever impact your character through the focus adjustment and—more importantly—the narrative impact of being permanently harmed or traumatized. You should factor this impact into how you perform moves and how you interact with the world.
       contents:
         permanently_harmed:
           label: permanently harmed
-          description: Permanently harmed may be marked when you are at 0 health and fail to [Endure Harm](datasworn:move:starforged/suffer/endure_harm). You have suffered a wound that you must reckon with, such as the loss of an eye or hand. Or you bear physical scars that are a constant reminder of a harrowing incident.
+          description: Permanently harmed may be marked when you are Wounded, at 0 health, and suffer harm ([Endure Harm](datasworn:move:elegy/suffer/endure_harm)). You have suffered a wound that you must reckon with, such as the loss of an eye or hand, or bear physical scars that are a constant reminder of a harrowing incident. When this impact is marked, you have 0 health and if you suffer more harm, you die your last death.
           permanent: true
         traumatized:
           label: traumatized
-          description: Traumatized may be marked when you are at 0 spirit and fail to [Endure Stress](datasworn:move:starforged/suffer/endure_stress). Your experiences have left you emotionally or mentally scarred.
+          description: Traumatized may be marked when you are Shaken, at 0 spirit and suffers stress. Your experiences have left you emotionally or mentally scarred. When this impact is marked, you have 0 health and you suffer more stress, your mind is forever lost.
           permanent: true
         sinner:
           label: sinner
           description: Sinner may be marked when you are Starving, at 0 blood and spend blood. You get so frenzied, you commit something that angers your ruler. Envision what it is and what she asks of you in exchange for letting you live. When this impact is marked, you have 0 blood and you spend more blood, you lose complete touch with your human side and turn into a beast.
           permanent: true
+    burdens:
+      label: burdens
+      description: Burdens are a result of life-changing experiences that leave you bound to quests. Clearing a burden can only be accomplished by resolving the quest.
+      contents:
+        cursed:
+          label: cursed
+          description: Cursed is marked when you [Face Last Death](datasworn:move:elegy/suffer/face_last_death) and return to the mortal world with a soul-bound quest. This burden can only be cleared by completing the quest.
+        tormented:
+          label: tormented
+          description: Tormented is marked when you [Face Desolation](datasworn:move:elegy/suffer/face_desolation), gain visions of a dreaded event coming to pass, and undertake a quest to prevent it. This burden can only be cleared by completing the quest.
   special_tracks:
     elegies:
       label: elegies
       description: Sing elegies and do what you must to see them fulfilled.
-      tags:
-        starforged:
-          legacy_track_xp: true
   stats:
     force:
       label: force
-      max: 7
-      min: 0
       description: Physical strength, endurance, and aggressiveness.
     dexterity:
       label: dexterity
-      max: 7
-      min: 0
       description: Quickness, agility and coordination.
     glamour:
-      label: glamour     
-      max: 7
-      min: 0
+      label: glamour
       description: Charisma, influence and charm.
     intellect:
       label: intellect
-      max: 7
-      min: 0
       description: Expertise, knowledge and observation.
     heart:
       label: heart
-      max: 7
-      min: 0
       description: Empathy and willpower.

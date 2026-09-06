@@ -1,0 +1,32 @@
+_id: elegy
+datasworn_version: "0.1.0"
+type: ruleset
+<<: &Source
+  title: 'Elegy 3.5'
+  license: https://creativecommons.org/licenses/by-nc-sa/4.0
+  url: https://miraclem.itch.io/elegy
+  date: 2024-07-31
+  authors:
+    - name: moro de oliveira
+worlds:
+  santa_maria:
+    name: Santa Maria
+    type: world
+    _source:
+      <<: *Source
+      title: 'Elegy 3.5 truths'
+      page: 2
+    truths:
+      - truth:elegy/history
+      - truth:elegy/origins
+      - truth:elegy/superstitions
+      - truth:elegy/genealogy
+      - truth:elegy/what_mortals_know
+      - truth:elegy/the_internet
+      - truth:elegy/rebels
+      - truth:elegy/blood_sorcery
+      - truth:elegy/religion
+      - truth:elegy/deviance
+      - truth:elegy/werewolves
+      - truth:elegy/mortal_magic
+      - truth:elegy/elegies

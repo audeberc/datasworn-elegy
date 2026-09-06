@@ -1,0 +1,14 @@
+{
+  "datasworn_version": "0.3.0",
+  "packages": {
+    "elegy": {
+      "id": "elegy",
+      "type": "ruleset",
+      "schemaLine": "0.3",
+      "packageName": "@datasworn-community/elegy",
+      "path": "elegy.json",
+      "description": "Datasworn JSON data for Elegy 3.5, a solo roleplaying game of vampires.",
+      "license": "CC-BY-NC-SA-4.0"
+    }
+  }
+}
